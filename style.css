@@ -1,0 +1,183 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+header {
+  background: url(https://static.pexels.com/photos/248515/pexels-photo-248515.png),
+    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+.head {
+  width: 50%;
+  margin: 10px auto;
+}
+header h1 {
+  font-size: 40px;
+}
+.btn {
+  border: 1px solid rgb(88, 88, 88);
+  background-color: rgb(44, 43, 43);
+  color: white;
+  line-height: 1.6;
+  text-decoration: none;
+  margin: 10px;
+  padding: 10px 20px;
+}
+.btn:hover {
+  background-color: rgb(207, 208, 209);
+  color: #000;
+}
+#section-a {
+  padding: 30px 40px;
+  background-color: rgb(221, 217, 217);
+  display: inline-block;
+  text-align: center;
+  min-height: 15vh;
+  text-align: center;
+  line-height: 1.5;
+}
+h2 {
+  font-size: 24px;
+}
+
+#section-a p {
+  column-count: 2;
+  column-gap: 35px;
+  column-width: 100%;
+  margin: 15px 150px;
+}
+#section-b {
+  background-color: black;
+  display: inline-flex;
+  justify-content: center;
+  font-size: 20px;
+  min-height: 60vh;
+  text-align: center;
+  padding: 20px 40px;
+}
+.readmore {
+  display: block;
+  margin: 20px;
+  background-color: white;
+  max-width: 20%;
+  color: black;
+}
+#section-b p {
+  padding: 0 30px 40px;
+}
+h4 {
+  margin: 30px;
+}
+.box-images {
+  height: 30vh;
+  width: 100%;
+}
+#section-c {
+  margin: 0;
+  min-height: 20vh;
+  text-align: center;
+  background-color: rgb(235, 213, 168);
+
+  padding: 25px;
+}
+h3 {
+  font-size: 24px;
+  margin: 30px auto;
+}
+#section-c p {
+  margin: 0 auto;
+  width: 50vw;
+}
+
+#section-d {
+  display: flex;
+  text-align: center;
+}
+
+.contact {
+  width: 100%;
+  padding: 10px;
+  background-color: #2690d4;
+  color: white;
+}
+.email {
+  margin: 25px;
+}
+
+.company {
+  text-align: center;
+  background-color: rgb(41, 40, 40);
+  color: white;
+}
+footer {
+  background-color: black;
+  color: white;
+  display: flex;
+  text-align: center;
+}
+.left,
+.right {
+  margin: 10px;
+  width: 100%;
+}
+a {
+  text-decoration: none;
+  color: #2690d4;
+}
+@media screen and (max-width: 768px) {
+  #section-a h2 {
+    margin: 20px auto;
+  }
+  #section-a p {
+    column-count: 1;
+    width: 100%;
+    margin: 20px auto;
+  }
+  #section-b {
+    display: block;
+    padding: auto 20px;
+    height: auto;
+  }
+  .readmore {
+    max-width: 100%;
+  }
+
+  #section-d {
+    display: block;
+  }
+  .contact {
+    margin: auto;
+    width: auto;
+  }
+  .contact h3 {
+    margin: 0;
+    padding: 20px;
+  }
+  .company {
+    padding: 30px;
+  }
+  .company p {
+    margin: 25px;
+  }
+  footer {
+    display: block;
+    padding: 20px;
+  }
+  .left,
+  .right {
+    margin: 0;
+  }
+}
